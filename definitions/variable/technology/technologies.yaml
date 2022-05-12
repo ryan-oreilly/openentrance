@@ -167,10 +167,14 @@
     description: Maximum load reduction due to changing household water storage heater
       usage.
     unit: MW
-- Demand Response|Maximum Reduction|Load Shifting|Electricity|Residential|Space Heater:
-    description: Maximum load reduction due to changing household space heater usage.
+- Demand Response|Maximum Reduction|Load Shifting|Electricity|Residential|Storage Heater:
+    description: Maximum load reduction due to changing household storage heater usage.
     unit: MW
 - Demand Response|Maximum Reduction|Load Shifting|Electricity|Residential|Heat Pump:
+    description: Maximum load reduction due to changing household heat
+      pump usage.
+    unit: MW
+- Demand Response|Maximum Reduction|Load Shifting|Electricity|Residential|Circulation Pump:
     description: Maximum load reduction due to changing household heat circulation
       pump usage.
     unit: MW
@@ -205,11 +209,15 @@
     description: Maximum dispatchable load due to changing household water storage
       heater usage.
     unit: MW
-- Demand Response|Maximum Dispatch|Load Shifting|Electricity|Residential|Space Heater:
-    description: Maximum dispatchable load due to changing household space heater
+- Demand Response|Maximum Dispatch|Load Shifting|Electricity|Residential|Storage Heater:
+    description: Maximum dispatchable load due to changing household Storage heater
       usage.
     unit: MW
 - Demand Response|Maximum Dispatch|Load Shifting|Electricity|Residential|Heat Pump:
+    description: Maximum dispatchable load due to changing household heat pump
+      pump usage.
+    unit: MW
+- Demand Response|Maximum Dispatch|Load Shifting|Electricity|Residential|Circulation Pump:
     description: Maximum dispatchable load due to changing household heat circulation
       pump usage.
     unit: MW
